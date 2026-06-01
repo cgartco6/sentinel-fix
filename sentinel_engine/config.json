@@ -1,0 +1,31 @@
+{
+  "target_dir": "../",
+  "exclude_dirs": [
+    ".git",
+    "node_modules",
+    "venv",
+    ".venv",
+    "__pycache__",
+    "_sentinel_engine",
+    "dist",
+    "build",
+    ".idea",
+    ".vscode"
+  ],
+  "allowed_extensions": [
+    ".py",
+    ".js",
+    ".ts",
+    ".tsx",
+    ".jsx",
+    ".json",
+    ".go",
+    ".rs",
+    ".html",
+    ".css"
+  ],
+  "db_name": "sentinel_memory.db",
+  "gemini_api_key": "",
+  "max_healing_attempts": 3,
+  "temperature": 0.1
+}
